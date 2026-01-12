@@ -1,8 +1,8 @@
 import msoffcrypto
 
 # --- CONFIGURAZIONE ---
-input_path = "/home/phd2/Scrivania/CorsoRepo/embryo_valencia/dataset_final.xlsx"
-output_path = "/home/phd2/Scrivania/CorsoRepo/embryo_valencia/dataset.xlsx"
+input_path = "/home/phd2/Scrivania/CorsoRepo/embryo_valencia/DB MII to blasto.xlsx"
+output_path = "/home/phd2/Scrivania/CorsoRepo/embryo_valencia/DB_MII_to_blasto_no_psw.xlsx"
 
 # pswd
 excel_password = ""

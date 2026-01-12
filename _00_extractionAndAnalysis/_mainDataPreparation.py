@@ -12,11 +12,11 @@ from config import Config_preprocessing as cfg
 try:
     from _01_extract_pdb import extract_frames
     from _02_extract_equatore import copy_equatorial_frames
-    from _03_quality_check import check_and_filter_videos  # <--- NEW IMPORT
+    from _03_quality_check import check_and_filter_videos
 except ImportError:
     from _00_extractionAndAnalysis._01_extract_pdb import extract_frames
     from _00_extractionAndAnalysis._02_extract_equatore import copy_equatorial_frames
-    from _00_extractionAndAnalysis._03_quality_check import check_and_filter_videos # <--- NEW IMPORT
+    from _00_extractionAndAnalysis._03_quality_check import check_and_filter_videos
 
 def main(extract_pdb=True, extract_equator=True, quality_check=True):
     

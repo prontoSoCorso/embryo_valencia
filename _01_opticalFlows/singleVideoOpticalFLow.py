@@ -14,10 +14,9 @@ while not os.path.basename(parent_dir) == "cellPIV":
     parent_dir = os.path.dirname(parent_dir)
 sys.path.append(parent_dir)
 
-from config import Config_01_OpticalFlow as config
-from config import utils as utils
-from _01_opticalFlows._process_optical_flow import process_frames
-from _utils_._utils import config_logging
+from config import Config_OpticalFlow as config
+from _01_opticalFlows._process_frames_of import process_frames
+from _utils.gen_utils import config_logging
 
 def main(input_path,
          output_base_dir,
